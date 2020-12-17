@@ -1,0 +1,27 @@
+
+{
+    "name": "FAKE-DATA BOT",
+    "description": "A PHP Telegram Bot To Generate Random Us Citizens Data",
+    "keywords": [
+        "Data",
+        "Citizens",
+        "Bot"
+    ],
+    "logo": "https://telegra.ph/file/f9e90e8963660aba9febd.jpg",
+    "repository": "https://github.com/The-God-Hacker/Fake-DataBot/",
+    "success_url": "/bot.php",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },"BOT_USERNAME": {
+            "description": "your Telegram Bot Username"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
